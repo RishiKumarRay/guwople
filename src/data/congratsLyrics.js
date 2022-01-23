@@ -1,0 +1,1 @@
+const congratsLyrics = ['Guwop still Trap God and they quote me more than Dr. Seuss!', 'So icy!!', `I'm so proud of you. wop!`];

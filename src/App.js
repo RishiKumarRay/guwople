@@ -11,6 +11,8 @@ import { useLocalStorage } from './hooks/useLocalStorage'
 import words from './data/words'
 import gucciAnswers from './data/gucciWords'
 import InfoGucci from './data/info.png'
+import congratsLyrics from './data/congratsLyrics'
+import sadLyrics from './data/sadLyrics'
 
 const state = {
   playing: 'playing',
@@ -260,8 +262,6 @@ function App() {
     setCurrentStreak,
     setLongestStreak,
   ])
-  const congratsLyrics = ['Guwop still Trap God and they quote me more than Dr. Seuss!', 'So icy!!', `I'm so proud of you. wop!`];
-  const sadLyrics = [`I had the county blues, now every day, I'm countin' the blues`]
   const congratsLyric = congratsLyrics[Math.floor(Math.random() * congratsLyrics.length)]
   const sadLyric = sadLyrics[Math.floor(Math.random() * sadLyrics.length)]
 
